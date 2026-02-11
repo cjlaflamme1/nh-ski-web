@@ -14,7 +14,7 @@ const features = [
     icon: <ExploreIcon sx={{ fontSize: 40 }} />,
     title: "Browse Routes",
     description:
-      "99 routes across 11 regions. Filter by difficulty to find the perfect backcountry run.",
+      "99+ routes across 12 regions. Filter by difficulty to find the perfect backcountry run.",
   },
   {
     icon: <MapIcon sx={{ fontSize: 40 }} />,

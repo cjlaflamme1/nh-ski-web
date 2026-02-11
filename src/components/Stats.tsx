@@ -4,8 +4,8 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 
 const stats = [
-  { value: "99", label: "Routes" },
-  { value: "11", label: "Regions" },
+  { value: "99+", label: "Routes" },
+  { value: "12", label: "Regions" },
   { value: "Offline", label: "Maps" },
 ];
 

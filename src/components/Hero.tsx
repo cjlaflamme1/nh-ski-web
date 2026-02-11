@@ -3,9 +3,9 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
-import AppleIcon from "@mui/icons-material/Apple";
-import ShopIcon from "@mui/icons-material/Shop";
 import mapView from "../assets/appScreenShots/mapView.png";
+import appStore from "../assets/appleAppStore.svg";
+import googlePlay from "../assets/googlePlay.svg";
 
 export default function Hero() {
   return (
@@ -34,7 +34,7 @@ export default function Hero() {
               variant="h6"
               sx={{ mb: 4, opacity: 0.9, fontWeight: 400 }}
             >
-              Discover 99 routes across 11 regions with interactive maps,
+              Discover 99+ routes across 12 regions with interactive maps,
               detailed route info, and offline access — all in one app.
             </Typography>
             <Stack
@@ -43,36 +43,26 @@ export default function Hero() {
               justifyContent={{ xs: "center", md: "flex-start" }}
             >
               <Button
-                variant="contained"
-                size="large"
                 href="#"
-                startIcon={<AppleIcon />}
-                sx={{
-                  bgcolor: "white",
-                  color: "primary.main",
-                  "&:hover": { bgcolor: "grey.100" },
-                  textTransform: "none",
-                  px: 3,
-                  py: 1.5,
-                }}
+                disabled
               >
-                Download on App Store
+                <Box
+                  component="img"
+                  src={appStore}
+                  alt="Download on the App Store"
+                  sx={{ height: 40 }}
+                />
               </Button>
               <Button
-                variant="outlined"
-                size="large"
                 href="#"
-                startIcon={<ShopIcon />}
-                sx={{
-                  borderColor: "white",
-                  color: "white",
-                  "&:hover": { borderColor: "grey.300", bgcolor: "rgba(255,255,255,0.1)" },
-                  textTransform: "none",
-                  px: 3,
-                  py: 1.5,
-                }}
+                disabled
               >
-                Get on Google Play
+                  <Box
+                    component="img"
+                    src={googlePlay}
+                    alt="Download on Google Play"
+                    sx={{ height: 40 }}
+                  />
               </Button>
             </Stack>
           </Box>

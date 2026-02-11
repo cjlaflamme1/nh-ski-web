@@ -3,8 +3,8 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
-import AppleIcon from "@mui/icons-material/Apple";
-import ShopIcon from "@mui/icons-material/Shop";
+import appStore from "../assets/appleAppStore.svg";
+import googlePlay from "../assets/googlePlay.svg";
 
 export default function CallToAction() {
   return (
@@ -27,23 +27,27 @@ export default function CallToAction() {
           justifyContent="center"
         >
           <Button
-            variant="contained"
-            size="large"
-            href="#"
-            startIcon={<AppleIcon />}
-            sx={{ textTransform: "none", px: 3, py: 1.5 }}
-          >
-            Download on App Store
-          </Button>
-          <Button
-            variant="outlined"
-            size="large"
-            href="#"
-            startIcon={<ShopIcon />}
-            sx={{ textTransform: "none", px: 3, py: 1.5 }}
-          >
-            Get on Google Play
-          </Button>
+                href="#"
+                disabled
+              >
+                <Box
+                  component="img"
+                  src={appStore}
+                  alt="Download on the App Store"
+                  sx={{ height: 40 }}
+                />
+              </Button>
+              <Button
+                href="#"
+                disabled
+              >
+                  <Box
+                    component="img"
+                    src={googlePlay}
+                    alt="Download on Google Play"
+                    sx={{ height: 40 }}
+                  />
+              </Button>
         </Stack>
       </Container>
     </Box>
