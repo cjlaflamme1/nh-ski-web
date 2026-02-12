@@ -37,6 +37,12 @@ export default function Hero() {
               Discover 99+ routes across 12 regions with interactive maps,
               detailed route info, and offline access — all in one app.
             </Typography>
+            <Typography
+              variant="body2"
+              sx={{ mb: 1, opacity: 0.7, fontStyle: "italic" }}
+            >
+              Coming soon to
+            </Typography>
             <Stack
               direction={{ xs: "column", sm: "row" }}
               spacing={2}

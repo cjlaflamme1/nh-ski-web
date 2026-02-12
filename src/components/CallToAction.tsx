@@ -21,6 +21,13 @@ export default function CallToAction() {
           Download NH Ski Map and start exploring New Hampshire's best backcountry
           routes today.
         </Typography>
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          sx={{ mb: 1, fontStyle: "italic" }}
+        >
+          Coming soon to
+        </Typography>
         <Stack
           direction={{ xs: "column", sm: "row" }}
           spacing={2}

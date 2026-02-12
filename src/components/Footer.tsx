@@ -19,7 +19,7 @@ export default function Footer() {
           spacing={2}
         >
           <Typography variant="body2">
-            &copy; {new Date().getFullYear()} NH Ski. All rights reserved.
+            &copy; {new Date().getFullYear()} NH Ski Map. All rights reserved.
           </Typography>
           <Stack direction="row" spacing={3}>
             <Link
