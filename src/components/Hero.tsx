@@ -6,6 +6,7 @@ import Stack from "@mui/material/Stack";
 import mapView from "../assets/appScreenShots/mapView.png";
 import appStore from "../assets/appleAppStore.svg";
 import googlePlay from "../assets/googlePlay.svg";
+import logo from "../assets/logo/app-splash.png";
 
 export default function Hero() {
   return (
@@ -37,40 +38,53 @@ export default function Hero() {
               Discover 99+ routes across 12 regions with interactive maps,
               detailed route info, and offline access — all in one app.
             </Typography>
-            <Typography
-              variant="body2"
-              sx={{ mb: 1, opacity: 0.7, fontStyle: "italic" }}
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: { xs: "column", md: "row" },
+                alignItems: "center",
+                justifyContent: { xs: "center", md: "flex-start" },
+                gap: { md: 3 },
+              }}
             >
-              Coming soon to
-            </Typography>
-            <Stack
-              direction={{ xs: "column", sm: "row" }}
-              spacing={2}
-              justifyContent={{ xs: "center", md: "flex-start" }}
-            >
-              <Button
-                href="#"
-                disabled
-              >
-                <Box
-                  component="img"
-                  src={appStore}
-                  alt="Download on the App Store"
-                  sx={{ height: 40 }}
-                />
-              </Button>
-              <Button
-                href="#"
-                disabled
-              >
-                  <Box
-                    component="img"
-                    src={googlePlay}
-                    alt="Download on Google Play"
-                    sx={{ height: 40 }}
-                  />
-              </Button>
-            </Stack>
+              <Box
+                component="img"
+                src={logo}
+                alt="NH Ski Map logo"
+                sx={{
+                  width: 200,
+                  height: 200,
+                  borderRadius: 2,
+                  mb: { xs: 4, md: 0 },
+                }}
+              />
+              <Box>
+                {/* <Typography
+                  variant="body2"
+                  sx={{ mb: 1, opacity: 0.7, fontStyle: "italic" }}
+                >
+                  Coming soon to
+                </Typography> */}
+                <Stack direction="row" spacing={1}>
+                  <Button href="#" disabled>
+                    <Box
+                      component="img"
+                      src={appStore}
+                      alt="Download on the App Store"
+                      sx={{ height: 40 }}
+                    />
+                  </Button>
+                  <Button href="#" disabled>
+                    <Box
+                      component="img"
+                      src={googlePlay}
+                      alt="Download on Google Play"
+                      sx={{ height: 40 }}
+                    />
+                  </Button>
+                </Stack>
+              </Box>
+            </Box>
           </Box>
           <Box
             sx={{
