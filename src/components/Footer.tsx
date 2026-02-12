@@ -3,6 +3,7 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -21,13 +22,31 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} NH Ski. All rights reserved.
           </Typography>
           <Stack direction="row" spacing={3}>
-            <Link href="#" color="inherit" underline="hover" variant="body2">
+            <Link
+              component={RouterLink}
+              to="/privacy"
+              color="inherit"
+              underline="hover"
+              variant="body2"
+            >
               Privacy Policy
             </Link>
-            <Link href="#" color="inherit" underline="hover" variant="body2">
+            <Link
+              component={RouterLink}
+              to="/terms"
+              color="inherit"
+              underline="hover"
+              variant="body2"
+            >
               Terms of Service
             </Link>
-            <Link href="#" color="inherit" underline="hover" variant="body2">
+            <Link
+              component={RouterLink}
+              to="/contact"
+              color="inherit"
+              underline="hover"
+              variant="body2"
+            >
               Contact
             </Link>
           </Stack>
