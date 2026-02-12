@@ -59,12 +59,12 @@ export default function Hero() {
                 }}
               />
               <Box>
-                {/* <Typography
+                <Typography
                   variant="body2"
-                  sx={{ mb: 1, opacity: 0.7, fontStyle: "italic" }}
+                  sx={{ mb: 1, opacity: 0.7, fontStyle: "italic", textAlign: "center" }}
                 >
                   Coming soon to
-                </Typography> */}
+                </Typography>
                 <Stack direction="row" spacing={1}>
                   <Button href="#" disabled>
                     <Box
