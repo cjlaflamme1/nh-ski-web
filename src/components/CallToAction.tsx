@@ -11,14 +11,14 @@ export default function CallToAction() {
     <Box sx={{ py: { xs: 8, md: 10 }, textAlign: "center" }}>
       <Container maxWidth="sm">
         <Typography variant="h3" component="h2" sx={{ mb: 2 }}>
-          Ready to Hit the Slopes?
+          Ready to start exploring?
         </Typography>
         <Typography
           variant="h6"
           color="text.secondary"
           sx={{ mb: 4, fontWeight: 400 }}
         >
-          Download NH Ski and start exploring New Hampshire's best backcountry
+          Download NH Ski Map and start exploring New Hampshire's best backcountry
           routes today.
         </Typography>
         <Stack
