@@ -4,9 +4,9 @@ import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 
 import routeList from "../assets/appScreenShots/routeList.png";
-import routeDetail from "../assets/appScreenShots/routeDetail.png";
+import routeDetail from "../assets/appScreenShots/description.png";
 import mapRouteSelected from "../assets/appScreenShots/mapRouteSelected.png";
-import favoriteList from "../assets/appScreenShots/favoriteList.png";
+import favoriteList from "../assets/appScreenShots/favorites.png";
 import download from "../assets/appScreenShots/download.png";
 import mapView from "../assets/appScreenShots/mapView.png";
 
