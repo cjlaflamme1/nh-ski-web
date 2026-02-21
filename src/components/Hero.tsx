@@ -74,7 +74,7 @@ export default function Hero() {
                       sx={{ height: 40 }}
                     />
                   </Button>
-                  <Button href="#" disabled>
+                  <Button href="https://play.google.com/store/apps/details?id=com.backcountryskimap.api" target="_blank" rel="noopener noreferrer">
                     <Box
                       component="img"
                       src={googlePlay}
