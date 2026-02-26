@@ -21,7 +21,7 @@ export default function TermsOfService() {
           Terms of Service
         </Typography>
         <Typography variant="body2" color="text.secondary" gutterBottom>
-          Last updated: February 12, 2026
+          Last updated: February 26, 2026
         </Typography>
 
         <Typography variant="h5" sx={{ mt: 4, mb: 1 }}>
@@ -30,7 +30,10 @@ export default function TermsOfService() {
         <Typography paragraph>
           By downloading, installing, or using the NH Ski Map mobile application
           ("the App"), you agree to be bound by these Terms of Service. If you
-          do not agree to these terms, do not use the App.
+          do not agree to these terms, do not use the App. The license granted
+          to you is non-transferable and is limited to use on Apple-branded
+          products that you own or control, as permitted by the Usage Rules set
+          forth in the Apple Media Services Terms and Conditions.
         </Typography>
 
         <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
@@ -86,7 +89,14 @@ export default function TermsOfService() {
           of any kind, either express or implied, including but not limited to
           implied warranties of merchantability, fitness for a particular
           purpose, and non-infringement. We do not warrant that the App will be
-          uninterrupted, error-free, or free of harmful components.
+          uninterrupted, error-free, or free of harmful components. In the
+          event of any failure of the App to conform to any applicable warranty,
+          you may notify Apple, and Apple will refund the purchase price (if
+          any) for the App. To the maximum extent permitted by applicable law,
+          Apple has no other warranty obligation whatsoever with respect to the
+          App. Any other claims, losses, liabilities, damages, costs, or
+          expenses attributable to any failure to conform to any warranty are
+          the sole responsibility of Red Beard Technologies LLC.
         </Typography>
 
         <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
@@ -108,9 +118,13 @@ export default function TermsOfService() {
         </Typography>
         <Typography paragraph>
           All content, design, graphics, and other intellectual property in the
-          App are owned by Red Beard Technologies LLC or its licensors. You may not reproduce,
-          distribute, or create derivative works from this content without
-          prior written permission.
+          App are owned by Red Beard Technologies LLC or its licensors. You may
+          not reproduce, distribute, or create derivative works from this
+          content without prior written permission. In the event of any
+          third-party claim that the App or your possession and use of the App
+          infringes that third party's intellectual property rights, Red Beard
+          Technologies LLC, not Apple, will be solely responsible for the
+          investigation, defense, settlement, and discharge of any such claim.
         </Typography>
 
         <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
@@ -148,6 +162,79 @@ export default function TermsOfService() {
           law provisions.
         </Typography>
 
+        <Typography variant="h4" sx={{ mt: 5, mb: 2 }}>
+          Apple App Store Terms
+        </Typography>
+        <Typography paragraph>
+          The following additional terms apply when you download or use the App
+          through the Apple App Store.
+        </Typography>
+
+        <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
+          Acknowledgement
+        </Typography>
+        <Typography paragraph>
+          This End-User License Agreement ("EULA") is between you and Red Beard
+          Technologies LLC only, and not with Apple Inc. ("Apple"). Red Beard
+          Technologies LLC, not Apple, is solely responsible for the App and its
+          content. This EULA may not provide for usage rules that conflict with
+          the Apple Media Services Terms and Conditions as of the date you
+          accept this EULA.
+        </Typography>
+
+        <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
+          Maintenance and Support
+        </Typography>
+        <Typography paragraph>
+          Red Beard Technologies LLC is solely responsible for providing any
+          maintenance and support services with respect to the App, as specified
+          in this EULA or as required under applicable law. Apple has no
+          obligation whatsoever to furnish any maintenance and support services
+          with respect to the App.
+        </Typography>
+
+        <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
+          Product Claims
+        </Typography>
+        <Typography paragraph>
+          Red Beard Technologies LLC, not Apple, is responsible for addressing
+          any user or third-party claims relating to the App or the user's
+          possession and/or use of the App, including but not limited to: (i)
+          product liability claims; (ii) any claim that the App fails to
+          conform to any applicable legal or regulatory requirement; and (iii)
+          claims arising under consumer protection, privacy, or similar
+          legislation.
+        </Typography>
+
+        <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
+          Legal Compliance
+        </Typography>
+        <Typography paragraph>
+          You represent and warrant that (i) you are not located in a country
+          that is subject to a U.S. Government embargo, or that has been
+          designated by the U.S. Government as a "terrorist supporting"
+          country; and (ii) you are not listed on any U.S. Government list of
+          prohibited or restricted parties.
+        </Typography>
+
+        <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
+          Third Party Terms
+        </Typography>
+        <Typography paragraph>
+          You must comply with applicable third-party terms of agreement when
+          using the App (e.g., your wireless data service agreement).
+        </Typography>
+
+        <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
+          Third Party Beneficiary
+        </Typography>
+        <Typography paragraph>
+          Apple and its subsidiaries are third-party beneficiaries of this EULA.
+          Upon your acceptance of this EULA, Apple will have the right (and
+          will be deemed to have accepted the right) to enforce this EULA
+          against you as a third-party beneficiary thereof.
+        </Typography>
+
         <Typography variant="h5" sx={{ mt: 3, mb: 1 }}>
           Contact Us
         </Typography>
@@ -158,6 +245,13 @@ export default function TermsOfService() {
             chad@redbeardtechnologies.com
           </Link>
           .
+        </Typography>
+        <Typography paragraph>
+          Red Beard Technologies LLC
+          <br />
+          1124 Whittier Road
+          <br />
+          West Ossipee, NH 03890
         </Typography>
       </Container>
     </Box>
