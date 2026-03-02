@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nhskimap.com/sitemap.xml
+Sitemap: https://www.nhskimap.com/sitemap.xml
