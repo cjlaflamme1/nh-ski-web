@@ -26,7 +26,7 @@ export default function CallToAction() {
           color="text.secondary"
           sx={{ mb: 1, fontStyle: "italic" }}
         >
-          Coming soon to
+          Now available on the App Store and Google Play
         </Typography>
         <Stack
           direction={{ xs: "column", sm: "row" }}
@@ -34,8 +34,9 @@ export default function CallToAction() {
           justifyContent="center"
         >
           <Button
-                href="#"
-                disabled
+                href="https://apps.apple.com/us/app/nh-ski-map/id6758867978"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Box
                   component="img"

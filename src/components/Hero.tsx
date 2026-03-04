@@ -63,10 +63,10 @@ export default function Hero() {
                   variant="body2"
                   sx={{ mb: 1, opacity: 0.7, fontStyle: "italic", textAlign: "center" }}
                 >
-                  Coming soon to
+                  Now available on the App Store and Google Play
                 </Typography>
                 <Stack direction="row" spacing={1}>
-                  <Button href="#" disabled>
+                  <Button href="https://apps.apple.com/us/app/nh-ski-map/id6758867978" target="_blank" rel="noopener noreferrer">
                     <Box
                       component="img"
                       src={appStore}
