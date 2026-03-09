@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Screenshots from "./components/Screenshots";
 import Stats from "./components/Stats";
 import CallToAction from "./components/CallToAction";
+import DonationNotice from "./components/DonationNotice";
 import Footer from "./components/Footer";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsOfService from "./components/TermsOfService";
@@ -17,6 +18,7 @@ function LandingPage() {
       <Features />
       <Screenshots />
       <Stats />
+      <DonationNotice />
       <CallToAction />
     </>
   );
