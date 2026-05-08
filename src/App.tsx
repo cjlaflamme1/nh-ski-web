@@ -10,6 +10,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsOfService from "./components/TermsOfService";
 import Contact from "./components/Contact";
 import Links from "./components/Links";
+import PrintFlyer from "./components/PrintFlyer";
 
 function LandingPage() {
   return (
@@ -26,7 +27,8 @@ function LandingPage() {
 
 function AppRoutes() {
   const location = useLocation();
-  const hideFooter = location.pathname === "/links";
+  const hideFooter =
+    location.pathname === "/links" || location.pathname === "/print";
 
   return (
     <>
@@ -36,6 +38,7 @@ function AppRoutes() {
         <Route path="/terms" element={<TermsOfService />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/links" element={<Links />} />
+        <Route path="/print" element={<PrintFlyer />} />
       </Routes>
       {!hideFooter && <Footer />}
     </>
